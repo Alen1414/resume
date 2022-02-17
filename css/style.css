@@ -4,6 +4,7 @@ body {
 }
 
 .main-content {
+
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
@@ -18,12 +19,15 @@ body {
 .main-content-section {
   padding: 100px 90px;
 }
-.Main-conten-tittle {
+.main-conten-tittle {
+  background-color: #1e2939;;
+
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
-  color: #000000
+  color: white;
+padding: 10px;
   margin-botom: 10px;
 }
 /* abaut me sectio */
@@ -34,10 +38,10 @@ body {
 .abaut_me_profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 17px
   font-weight: 700;
-  color: 000;
+  
   margin: 0 0 20px 0;
 }
 .abaut-me-name {
@@ -50,7 +54,9 @@ body {
 }
 
 .abaut-me-description{
-  withh: 400px;
+  /* weight: 400px; */
+  margin: 0px;
+  padding: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -67,16 +73,22 @@ body {
 }
 .my-prodject-item {
  color: #000; 
- font-weight: bold;
+ /* font-weight: bold; */
 }
 
 .my-prodject-text {
 font-style: normal;
-font-weight: normal;
+/* font-weight: normal; */
 font-size: 14px;
 line-height: 24px;
-color: #595959;
+color: black;
 margin-left: 5px;
+}
+.my-prodject-duties{
+  color: gray;
+  font-size: 12px;
+line-height: 20px;
+
 }
 .my-prodject-link {
 font-style: normal;
@@ -128,9 +140,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 }
-.My_education_section {
-  background: ;
-}
+
 /*  Sidebar-section */
 .sidebar-section {
   background-color: #1e2939;
@@ -158,8 +168,11 @@ line-height: 24px;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+
   color: #f5f7fa;
-  margin right: 7px;
+
+  margin-right: 7px;
+  list-style: none;
 }
 
 .contacts-section-link {
@@ -190,8 +203,9 @@ color: #f5f7fa;
 
 
 .foto {
+  border-radius: 50%;
   width: 370px;
-height: 400px;
+height: 430px;
 left: 40px;
 top: 80px;
 
