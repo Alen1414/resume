@@ -1,7 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
-
+ margin-top: 15px;
+ margin-bottom: 15px;
 }
 
 .main-content {
@@ -89,7 +90,7 @@ line-height: 20px; */
   padding-left: 15px;
   padding-bottom: 20px;
   padding-right: 15px;
-  /* margin-left: 0px; */
+ 
   background-color: rgb(201, 184, 184);
   color: white;
 }
@@ -120,6 +121,7 @@ margin: 0px;
   line-height: 24px; */
   color: #000;
 }
+
 .education{
    padding-top: 20px;
   padding-left: 15px;
@@ -128,11 +130,7 @@ margin: 0px;
  
 };
 
-.education-part{
-  background-color: rgb(201, 184, 184);
-  color: white;
-  
-};
+
 
 
 
