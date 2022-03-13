@@ -36,12 +36,12 @@ body {
 }
 /* abaut me sectio */
 .abaut-me-section {
-  /* margin: 0 0 40px 0; */
+  /* margin-top: 10px; */
   padding-top: 20px;
   padding-left: 15px;
   padding-bottom: 20px;
   padding-right: 15px;
-  /* margin-left: 0px; */
+ 
   background-color: rgb(201, 184, 184);
   color: white;
 };
@@ -156,6 +156,7 @@ line-height: 24px; */
   background-color: gray;
   width: 370px;
   padding: 40px 0;
+  
 }
 
 .contacts-section,
