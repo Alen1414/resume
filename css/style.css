@@ -9,11 +9,11 @@ body {
 
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1300px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px
 }
 
@@ -42,7 +42,7 @@ body {
   padding-bottom: 20px;
   padding-right: 15px;
  
-  background-color: rgb(201, 184, 184);
+  background-color: rgb(168, 147, 147);;
   color: white;
 };
 
@@ -66,7 +66,7 @@ body {
 
 
 .my-prodject-list {
-  padding: 0 0 0 15px;
+  padding: 0px;
   list-style-type: none;
 }
 .my-prodject-item {
@@ -88,11 +88,11 @@ line-height: 20px; */
   padding-bottom: 20px;
   padding-right: 15px;
  
-  background-color: rgb(201, 184, 184);
+  background-color: rgb(168, 147, 147);
   color: white;
 }
 .my_work_company{
-  color: rgb(204, 136, 136);
+  color: #595959;
 
   
 };
@@ -105,7 +105,7 @@ color: #595959;
 }
 .my-prodject-link-git{
   
-  color:  rgb(201, 184, 184);
+  color: rgb(168, 147, 147);;
   text-decoration: none;
 };
 .work-list{
@@ -173,7 +173,7 @@ line-height: 24px; */
 /* contacts-section */
 
 .contacts-section-type {
- 
+ margin: 0px;
 color: #f5f7fa;
 list-style: none;
 }
