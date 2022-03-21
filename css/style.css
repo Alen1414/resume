@@ -1,8 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
- margin-top: 15px;
- margin-bottom: 15px;
+ /* margin-top: 15px;
+ margin-bottom: 15px; */
 }
 
 .main-content {
@@ -212,4 +212,9 @@ height: 430px;
 left: 40px;
 top: 80px;
 
+}
+.education_blok{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
