@@ -9,7 +9,7 @@ body {
 
   display: flex;
   flex-direction: row-reverse;
-  width: 1300px;
+  /* width: 1300px; */
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -173,7 +173,7 @@ line-height: 24px; */
 
 
 .contacts-section-type {
- margin: 0px;
+ margin-top: 0px;
 color: #f5f7fa;
 list-style: none;
 }
@@ -182,13 +182,13 @@ list-style: none;
 color: #dbe0e7;
 font-style: normal;
 font-weight: normal;
-/* font-size: 14px;
-line-height: 24px; */
+
 }
 
 /* tech-skills- */
 .tech-skills-list {
   padding: 0 0 0 17px;
+
 }
 
 .tech-skills-item {
