@@ -21,7 +21,9 @@ margin: 0px;
 
 /* Main content */
 .main-content-section {
-  padding: 0px 90px;
+  padding-left: 40px;
+  padding-right: 0px;
+  /* padding: 0px 90px; */
 }
 .main-conten-tittle {
  
